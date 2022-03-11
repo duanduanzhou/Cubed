@@ -2,6 +2,7 @@
   "expo": {
     "name": "my-app",
     "slug": "my-app",
+    "owner": "nicholas-bui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +18,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.webiosandriod.all",
+      "config":{
+        "googleSignIn":{
+          "reservedClientId":"com.googleusercontent.apps.162943866485-rout8tv8klvfb1r3cq880me6r4f25s5h"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+       "versionCode": 15
     },
     "web": {
       "favicon": "./assets/favicon.png"
