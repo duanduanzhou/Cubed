@@ -1,3 +1,5 @@
+
+//Ref from https://scottdomes.com/react-native-authentication/
 import { getToken } from './token';
 export const getUsers = async (shouldSucceed = true) => {
   const token = await getToken();
@@ -9,7 +11,7 @@ export const getUsers = async (shouldSucceed = true) => {
   return mockSuccess({
     users: [
       {
-        email: 'test@test.ca',
+        email: 'zoey@gmail.com',
       },
       {
         email: 'test2@test.ca',
@@ -20,13 +22,13 @@ export const getUsers = async (shouldSucceed = true) => {
 
 const mockSuccess = (value) => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(value), 2000);
+    setTimeout(() => resolve(value), 500);
   });
 };
 
 const mockFailure = (value) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => reject(value), 2000);
+    setTimeout(() => reject(value), 500);
   });
 };
 

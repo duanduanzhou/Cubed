@@ -9,8 +9,12 @@ const CreateAccount = ({ navigation }) => {
     <EmailForm
       UserText="Register"
       buttonText="Sign up"
+
+      RegisterHint1={"*must be 6-14 Characters \n*cannot contain special characters"}
+      RegisterHint2={"*must be at least 6 Characters \n*a mixture of uppercase and lower letters \n*contain at least 1 number"}
       onSubmit={createAccount}
-      onAuthentication={() => navigation.navigate('Home')}
+      isRegister = "True"
+      onAuthentication={() => navigation.navigate('Login')}
     >
       <Button
         title="Back to log in"

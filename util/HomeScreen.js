@@ -1,3 +1,4 @@
+//Ref from https://scottdomes.com/react-native-authentication/
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { getUsers } from '../util/mock';
