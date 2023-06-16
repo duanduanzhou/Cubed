@@ -2,7 +2,9 @@
 Overview
 
 Value Proposition: Collaborate and build in 3D with ease.
+
 Our team consists of: 
+
 Krain C. | Designer & Mobile Developer 
 Nicholas B. | Mobile & Web Developer
 Nicholas V. | Designer & Augmented Reality Developer
@@ -16,7 +18,9 @@ The following report summarizes our findings throughout the ten-week quarter and
 Central Problem and Solution
 
 Mission Statement: Enable immersive learning through defying space.
+
 Problem: Virtual learning can be difficult when you’re limited to video-calling or screen sharing in two-dimensions. Especially for abstract concepts or those that require complex visualizations, people have a hard time getting their point across, much less learning new topics or building on top of the work of teammates. 
+
 Solution: Cubed aims to solve this problem by providing a workspace where you can efficiently demonstrate concepts and collaborate with others in 3D. Add shapes/objects, annotate, or draw in 3D to teach others through a “hands-on” experience. And, with augmented reality mode, users are able to view their creations right there in their space.
 
 Final Prototype Implementation
