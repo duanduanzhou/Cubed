@@ -5,7 +5,13 @@ Value Proposition: Collaborate and build in 3D with ease.
 
 Our team consists of: 
 
-Krain C. | Designer & Mobile Developer, Nicholas B. | Mobile & Web Developer, Nicholas V. | Designer & Augmented Reality Developer, Zoey Z. | Product Manager & Mobile Developer
+Krain C. | Designer & Mobile Developer
+
+Nicholas B. | Mobile & Web Developer
+
+Nicholas V. | Designer & Augmented Reality Developer
+
+Zoey Z. | Product Manager & Mobile Developer
 
 Note from the team:
 
